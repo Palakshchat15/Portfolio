@@ -3,6 +3,15 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react"
 const projects = [
     {
         id: 1,
+        title: "Interview Prep AI",
+        description: "A platform to prepare for interview through AI.",
+        image: "/projects/project5.png",
+        tags: ["MERN", "TailwindCSS", "MongoDB"],
+        demoUrl: "https://interviewprep-frontend.onrender.com",
+        githubUrl: "https://github.com/Palakshchat15/interviewprep"
+    },
+    {
+        id: 2,
         title: "Prescripto User Page",
         description: "A User Page for a Doctor Appointment Booking System.",
         image: "/projects/project1.png",
@@ -11,7 +20,7 @@ const projects = [
         githubUrl: "https://github.com/Palakshchat15/prescripto"
     },
     {
-        id: 2,
+        id: 3,
         title: "Prescripto Admin Page",
         description: "An Admin Page for a Doctor Appointment Booking System.",
         image: "/projects/project2.png",
@@ -20,7 +29,7 @@ const projects = [
         githubUrl: "https://github.com/Palakshchat15/prescripto"
     },
     {
-        id: 3,
+        id: 4,
         title: "Snapgram",
         description: "A Social Media App.",
         image: "/projects/project3.png",
@@ -29,7 +38,7 @@ const projects = [
         githubUrl: "https://github.com/Palakshchat15/snapgram"
     },
     {
-        id: 4,
+        id: 5,
         title: "NewVideos",
         description: "A Video Streaming App.",
         image: "/projects/project4.png",
