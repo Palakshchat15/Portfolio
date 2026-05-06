@@ -3,15 +3,33 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react"
 const projects = [
     {
         id: 1,
-        title: "mepass",
-        description: "An event ticket booking system.",
-        image: "/projects/project6.png",
-        tags: ["MERN", "TailwindCSS", "MongoDB"],
-        demoUrl: "https://mepass-frontend.onrender.com",
-        githubUrl: "https://github.com/Palakshchat15/mepass"
+        title: "Inventory Demand Analysis",
+        description: "A tool for analyzing inventory demand patterns.",
+        image: "/projects/dashboard_preview2.png",
+        tags: ["Python", "SQL", "Tableau"],
+        demoUrl: "https://public.tableau.com/app/profile/palaksh.chaturvedi/viz/InventoryandDemandAnalysis/Dashboard1",
+        githubUrl: "https://github.com/Palakshchat15/Inventory_Demand_Analysis"
     },
     {
         id: 2,
+        title: "Customer Lifetime Value Analysis",
+        description: "A platform to analyze customer lifetime value.",
+        image: "/projects/dashboard_preview3.png",
+        tags: ["Python", "SQL", "Tableau"],
+        demoUrl: "https://public.tableau.com/app/profile/palaksh.chaturvedi/viz/CustomerLifetimeValueAnalysis/Dashboard1",
+        githubUrl: "https://github.com/Palakshchat15/Customer_Lifetime_Value_Analysis"
+    },
+    {
+        id: 3,
+        title: "Customer Churn Prediction Analysis",
+        description: "A tool to analyze customer churn prediction.",
+        image: "/projects/dashboard_preview1.png",
+        tags: ["Python", "SQL", "Tableau"],
+        demoUrl: "https://public.tableau.com/app/profile/palaksh.chaturvedi/viz/CustomerChurnPredictionAnalysis/Dashboard1",
+        githubUrl: "https://github.com/Palakshchat15/Customer_Churn_Prediction_Analysis"
+    },
+    {
+        id: 4,
         title: "Interview Prep AI",
         description: "A platform to prepare for interview through AI.",
         image: "/projects/project5.png",
@@ -20,7 +38,7 @@ const projects = [
         githubUrl: "https://github.com/Palakshchat15/interviewprep"
     },
     {
-        id: 3,
+        id: 5,
         title: "Prescripto User Page",
         description: "A User Page for a Doctor Appointment Booking System.",
         image: "/projects/project1.png",
@@ -29,7 +47,7 @@ const projects = [
         githubUrl: "https://github.com/Palakshchat15/prescripto"
     },
     {
-        id: 4,
+        id: 6,
         title: "Prescripto Admin Page",
         description: "An Admin Page for a Doctor Appointment Booking System.",
         image: "/projects/project2.png",
@@ -38,7 +56,7 @@ const projects = [
         githubUrl: "https://github.com/Palakshchat15/prescripto"
     },
     {
-        id: 5,
+        id: 7,
         title: "Snapgram",
         description: "A Social Media App.",
         image: "/projects/project3.png",
@@ -47,7 +65,7 @@ const projects = [
         githubUrl: "https://github.com/Palakshchat15/snapgram"
     },
     {
-        id: 6,
+        id: 8,
         title: "NewVideos",
         description: "A Video Streaming App.",
         image: "/projects/project4.png",
